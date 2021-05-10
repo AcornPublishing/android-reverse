@@ -1,0 +1,1 @@
+cmd_/home/namdaehyeon/SHV-Kernel/hello/hello.ko := /home/namdaehyeon/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/namdaehyeon/SHV-Kernel/scripts/module-common.lds --build-id  -o /home/namdaehyeon/SHV-Kernel/hello/hello.ko /home/namdaehyeon/SHV-Kernel/hello/hello.o /home/namdaehyeon/SHV-Kernel/hello/hello.mod.o
